@@ -21,7 +21,7 @@
                 <span>nacer<span class="brand-dot">.com</span></span>
             </a>
             <div class="nav__actions">
-                <ul class="nav__menu">
+                <ul class="nav__menu" id="navMenu">
                     <li><a href="#inicio" class="nav-link">Home</a></li>
                     <li><a href="#proyectos" class="nav-link">proyectos</a></li>
                     <li><a href="#sobre-nosotros" class="nav-link">Sobre nosotros</a></li>
@@ -64,7 +64,6 @@
          <section id="inicio" class="hero">
             <h1>Bienvenido a Nacer.com</h1>
             <p>Código de interface web moderna y accesible</p>
-
          </section>
     </main>
 
@@ -102,7 +101,7 @@
                     <h4>legal</h4>
                     <ul>
                         <li><a href="#términos">Términos y condiciones</a></li>
-                        <li><a href="#términos">Política de privacidad</a></li>
+                        <li><a href="#privacidad">Política de privacidad</a></li>
                     </ul>
                 </div>
                 <div>
@@ -113,22 +112,21 @@
                     </ul>
                 </div>
             </section>
-            <small>&copy; 2023 Nacer.com. Todos los derechos reservados.</small>
+            <small>&copy; 2026 Nacer.com. Todos los derechos reservados.</small>
         </footer>
         <!-- Banner de cookies -->
-        <div class="cookie" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
-            <div>
+        <section class="cookie" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+            <div class="cookie__content container">
                 <P>
                 Este sitio web utiliza cookies para mejorar tu experiencia. Al continuar navegando, aceptas el uso de cookies.
-                <a href="#Privacidad">Más información</a>
+                <a href="#privacidad">Más información</a>
                 </P>
                 <div class="cookie__actions">
                 <button class="btn btn--ghost" id="cookieReject">Rechazar</button>
                 <button class="btn btn--primary" id="cookieAccept">Aceptar</button>
                 </div>
             </div>
-
-        </div>
+        </section>
 <script src="src/js/main.js"></script>
 </body>
 </html>
